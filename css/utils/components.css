@@ -1,7 +1,7 @@
 .btn {
   display: inline-block;
   padding: 16px 32px;
-  background: #9146FF;
+  background: var(--color-p1);
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font-size: 18px;
@@ -11,7 +11,7 @@
 }
 
 .btn:hover {
-  background: #9114FF;
+  background: var(--color-p2);
 }
 
 @media (max-width: 600px) {

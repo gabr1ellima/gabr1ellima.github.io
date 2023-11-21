@@ -1,5 +1,11 @@
 @import './global/global.css';
+@import './utils/typo.css';
+@import './utils/colors.css';
+
 @import './global/header.css';
+
+/* Utils */
+
 @import './utils/components.css';
 
 /* Home */

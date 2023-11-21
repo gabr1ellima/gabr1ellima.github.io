@@ -1,6 +1,5 @@
 .hero-bg {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--color-12);
 }
 
 .hero {
@@ -22,24 +21,11 @@
 
 .hero h1 {
   margin: 32px 0px;
-  font-size: 64px;
-  line-height: 1.125;
   max-width: 20ch;
-  font-family: 'Poppins';
-  font-weight: 600;
 }
 
 .hero p {
   margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-
-.hero p span {
-  color: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -53,7 +39,7 @@
 
 @media (max-width: 800px) {
   .hero-bg {
-    background: #111111;
+    background: var(--color-11);
     padding-top: 40px;
   }
 
