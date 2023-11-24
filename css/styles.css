@@ -5,9 +5,10 @@
 @import './global/header.css';
 
 /* Utils */
-
 @import './utils/components.css';
 
 /* Home */
-
 @import './home/hero.css';
+
+/* Projects */
+@import './projects/projects-list.css';
