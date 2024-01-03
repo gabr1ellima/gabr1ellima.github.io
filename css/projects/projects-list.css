@@ -7,45 +7,42 @@
   margin-bottom: 20px;
 }
 
-.projects-list ul {
-  display: flex;
+.projects-bg {
+  background: var(--color-11);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
-  text-align: center;
-  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.projects-list a {
-  display: block;
+.projects h2 {
+  margin-bottom: 20px;
 }
 
-.projects-list li {
-  flex: 1;
-  min-width: 280px;
+.projects p {
+  margin-bottom: 32px;
 }
 
-.projects-list img {
+.projects-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-techs p {
   margin-bottom: 8px;
 }
 
-.projects-list h3 {
-  margin-bottom: 20px;
-  position: relative;
-  display: inline-block;
-  
+.projects-content a {
+  width: max-content;
+  margin-top: auto;
 }
 
-.projects-list h3::after {
-  content: "";
-  display: block;
-  height: 4px;
-  width: 100%;
-  background-color: #9146FF;
-  margin-top: 8px;
-  position: absolute;
-}
-
-@media (max-width: 800px) {
-  .projects-list {
-    padding-bottom: 60px;
-  }  
+.badges-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px
 }

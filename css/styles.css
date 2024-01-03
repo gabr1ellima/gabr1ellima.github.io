@@ -9,6 +9,10 @@
 
 /* Home */
 @import './home/hero.css';
+@import './home/about.css';
 
 /* Projects */
 @import './projects/projects-list.css';
+
+/* Posts */
+@import './posts/post.css';

@@ -1,5 +1,6 @@
 .hero-bg {
   background-color: var(--color-12);
+  height: calc(100vh - 120px);
 }
 
 .hero {
