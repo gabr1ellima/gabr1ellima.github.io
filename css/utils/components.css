@@ -39,3 +39,14 @@
   padding-left: 8px;
   color: #3B82F6;
 }
+
+.category {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #F67ACB;
+  background: rgba(246, 122, 203, 0.15);
+  padding: 5px 10px;
+}
