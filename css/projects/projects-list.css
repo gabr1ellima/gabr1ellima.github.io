@@ -41,8 +41,18 @@
   margin-top: auto;
 }
 
+.projects-content span {
+  padding-left: 8px;
+}
+
 .badges-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px
+}
+
+@media (max-width: 800px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }

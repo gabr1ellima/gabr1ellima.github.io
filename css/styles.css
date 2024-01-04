@@ -14,5 +14,8 @@
 /* Projects */
 @import './projects/projects-list.css';
 
+/* Footer */
+@import './global/footer.css';
+
 /* Posts */
 @import './posts/post.css';
