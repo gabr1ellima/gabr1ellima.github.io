@@ -56,9 +56,3 @@
     grid-template-columns: 1fr;
   }
 }
-
-@media (max-width: 600px) {
-  .about-content .badge {
-    overflow: hidden;
-  }
-}
