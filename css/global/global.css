@@ -42,3 +42,8 @@ button {
   cursor: pointer;
   background-color: transparent;
 }
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
