@@ -17,5 +17,8 @@
 /* Footer */
 @import './global/footer.css';
 
+/* Blog */
+@import './blog/blog.css';
+
 /* Posts */
 @import './posts/post.css';
